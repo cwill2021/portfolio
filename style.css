@@ -1,0 +1,55 @@
+*{
+
+}
+
+header{
+    background-color: aquamarine;
+
+}
+
+header h1{
+    color: blueviolet;
+}
+
+nav{
+    background-color: brown;
+}
+
+nav ul{
+    color: cadetblue;
+}
+
+main{
+    background-color: cadetblue;
+}
+
+main h2{
+    color: crimson;
+    text-align: center;
+}
+
+footer{
+    background-color: chartreuse;
+    color: white;
+}
+
+.photo img{
+    max-width: 300px;
+    max-height: 400px;
+    margin: 15px;
+}
+
+
+.about p{
+    align-content: center;
+    text-align: center;
+}
+
+.work img{
+    max-height: 300px;
+}
+.work{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
