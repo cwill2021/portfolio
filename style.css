@@ -13,22 +13,36 @@ header{
 
 header h1{
     color: blueviolet;
+    font-size: 48px;
 }
 
 nav{
     background-color: brown;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
     
 }
 
 nav ul{
     background-color: ghostwhite;
     text-align: center;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    
     
 }
 
 nav ul li{
-    display:inline-block;
-    
+    display:inline-block; 
+    font-size: 36px;
+}
+
+
+
+a:hover{
+    color: blue;
 }
 
 main{
@@ -44,11 +58,14 @@ main{
 h2{
     color: crimson;
     text-align: center;
+    font-size: 36px;
+    text-decoration: underline;
 }
 
 h3{
     color: blue;
     text-align: center;
+    font-size: 30px;
 }
 
 .footer{
@@ -61,6 +78,7 @@ h3{
 .footer p{
     color: deeppink;
     text-align: center;
+    font-size: 24px;
 }
 
 .about{
@@ -83,6 +101,7 @@ h3{
 .about p{
     float: right;
     width: 80%;
+    font-size: 24px;
 }
 
 
@@ -100,6 +119,8 @@ h3{
 
 
 }
+
+
 
 .card-one{
     flex: 1 0 300px;
@@ -119,6 +140,7 @@ h3{
     color: #fff;
     margin: 5px;
     width: 50%;
+    font-size: 24px;
 }
 .card-one img {
     flex: 2 1 300px;
@@ -153,6 +175,7 @@ h3{
     color: #fff;
     margin: 5px;
     width: 50%;
+    font-size: 24px;
 
 }
   
