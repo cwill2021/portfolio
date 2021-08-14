@@ -8,21 +8,20 @@
     <title>Title</title>
     
 </head>
-
 <body>
     <header>
         <h1>header goes here</h1>
     </header>
     <nav> 
         <ul>
-            <li>About</li>
-            <li>My Work</li>
-            <li>Contact</li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#work">My Work</li></a>
+            <li><a href="#contact">Contact</li></a>
         </ul>
     </nav>
     <main> 
 
-        <div class ="about">
+        <div id="about" div class ="about">
             <h2>About Me</h2>
             <p>about me stuff here Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culp
             <div class="image">
@@ -30,27 +29,30 @@
             </div></p>
         </div> 
 
-        
-         <div class ="work">
-            <h2>My Work</h2>
-            <div class="one">
-                <div class ="first"><img src="./images/one.png">
-                </div>
-            </div>
-                
-            <div class="two">
-                <div class ="second"><img src="./images/two.png">
-                </div>
-            </div>
-            <div class="three">
-                <div class ="third"><img src="./images/three.png">
-                </div>
-            </div>
+        <div id="work" div class="work">
+            <h2>My Work:</h2>
+                <section class="card-one">
+                <header>Books N Beans</header>
+                <a href="https://www.sessions-creative.com/courtney-williams/html-exercise2/index.html"> <img src="./images/one.png" alt="books N beans" /></a> 
+                </section>
+                <section class="card">
+                <header>Mountain Zen</header>
+                <a href="https://www.sessions-creative.com/courtney-williams/html-exercise6/index.html"><img src="./images/two.png" alt="mountain zen" /></a>
+                </section>
+                <section class="card">
+                <header>Horiseon</header>
+                <a href="https://cwill2021.github.io/code-refactor/"><img src="./images/three.png" alt="Horiseon" /></a>
+                </section>
+            
+        </div>
+
      </main>
 
-    <footer>
-        <h3>footer goes here</h3>
-     </footer>
+    <div id="contact" class="footer">
+        <h3>Contact</h3>
+        <p>contact information goes here</p>
+    </div>
+     
 </body>
 
 </html>
